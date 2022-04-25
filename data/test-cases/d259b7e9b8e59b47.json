@@ -1,0 +1,106 @@
+{
+  "uid" : "d259b7e9b8e59b47",
+  "name" : "testAddSubscription",
+  "fullName" : "testGymDashboard.testMembershipPage.testAddSubscription",
+  "historyId" : "10f1ee3c68dc168d9d7582054f43142",
+  "time" : {
+    "start" : 1650319001082,
+    "stop" : 1650319012880,
+    "duration" : 11798
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "init",
+    "time" : {
+      "start" : 1650318989721,
+      "stop" : 1650319000951,
+      "duration" : 11230
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "stopDriver",
+    "time" : {
+      "start" : 1650319028509,
+      "stop" : 1650319028509,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "testGymDashboard.testMembershipPage"
+  }, {
+    "name" : "testClass",
+    "value" : "testGymDashboard.testMembershipPage"
+  }, {
+    "name" : "testMethod",
+    "value" : "testAddSubscription"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default Suite"
+  }, {
+    "name" : "suite",
+    "value" : "gymme"
+  }, {
+    "name" : "subSuite",
+    "value" : "testGymDashboard.testMembershipPage"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-SI31G4B"
+  }, {
+    "name" : "thread",
+    "value" : "3480@DESKTOP-SI31G4B.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "317df5aa05d43ba8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650317525153,
+        "stop" : 1650317536281,
+        "duration" : 11128
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d259b7e9b8e59b47.json",
+  "parameterValues" : [ ]
+}

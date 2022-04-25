@@ -1,0 +1,179 @@
+{
+  "uid" : "e164c4397a0f574c",
+  "name" : "deleteBranch",
+  "fullName" : "testOwnerDashboard.testBranchesPage.deleteBranch",
+  "historyId" : "15e9865d0171363140abaf5ffc9b563b",
+  "time" : {
+    "start" : 1650492030278,
+    "stop" : 1650492043906,
+    "duration" : 13628
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 9,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ {
+    "name" : "init",
+    "time" : {
+      "start" : 1650492009708,
+      "stop" : 1650492016106,
+      "duration" : 6398
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "stopDriver",
+    "time" : {
+      "start" : 1650492043991,
+      "stop" : 1650492044002,
+      "duration" : 11
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "testOwnerDashboard.testBranchesPage"
+  }, {
+    "name" : "testClass",
+    "value" : "testOwnerDashboard.testBranchesPage"
+  }, {
+    "name" : "testMethod",
+    "value" : "deleteBranch"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default Suite"
+  }, {
+    "name" : "suite",
+    "value" : "gymme"
+  }, {
+    "name" : "subSuite",
+    "value" : "testOwnerDashboard.testBranchesPage"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-SI31G4B"
+  }, {
+    "name" : "thread",
+    "value" : "11704@DESKTOP-SI31G4B.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "57641724fdb294a7",
+      "status" : "failed",
+      "statusDetails" : "branch not deleted expected [4] but found [5]",
+      "time" : {
+        "start" : 1650491879458,
+        "stop" : 1650491884154,
+        "duration" : 4696
+      }
+    }, {
+      "uid" : "c8eff7b1b956ad63",
+      "status" : "failed",
+      "statusDetails" : "branch not deleted expected [4] but found [5]",
+      "time" : {
+        "start" : 1650491826843,
+        "stop" : 1650491830646,
+        "duration" : 3803
+      }
+    }, {
+      "uid" : "5b848bafe0c18689",
+      "status" : "failed",
+      "statusDetails" : "branch not deleted expected [6] but found [5]",
+      "time" : {
+        "start" : 1650491721757,
+        "stop" : 1650491725474,
+        "duration" : 3717
+      }
+    }, {
+      "uid" : "fd8fe1d87e6c8ed7",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <button class=\"btn btn-light\">...</button> is not clickable at point (1144, 106). Other element would receive the click: <div id=\"delete-alert\" class=\"form-container\">...</div>\n  (Session info: chrome=100.0.4896.127)\nBuild info: version: '4.1.1', revision: 'e8fcc2cecf'\nSystem info: host: 'DESKTOP-SI31G4B', ip: '192.168.1.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_312'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [1bf2ed3dfa8c393eff8e13768e4d683a, clickElement {id=4568ce1c-8588-4003-890f-79f5def075d7}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\\Users\\MKSOLU~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:58239}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58239/devtoo..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (1bf2ed3dfa8c393eff8e13768e4d683a)] -> class: btn-light]\nSession ID: 1bf2ed3dfa8c393eff8e13768e4d683a",
+      "time" : {
+        "start" : 1650491431928,
+        "stop" : 1650491435732,
+        "duration" : 3804
+      }
+    }, {
+      "uid" : "2f73f27de63a08db",
+      "status" : "skipped",
+      "statusDetails" : "Method testBranchesPage.deleteBranch()[pri:0, instance:testOwnerDashboard.testBranchesPage@7ea37dbf] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1650491351801,
+        "stop" : 1650491351801,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "9eb1e6b7e3eef4fe",
+      "status" : "skipped",
+      "statusDetails" : "Method testBranchesPage.deleteBranch()[pri:0, instance:testOwnerDashboard.testBranchesPage@7ea37dbf] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1650491294306,
+        "stop" : 1650491294306,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "2ac55dc5570f6518",
+      "status" : "skipped",
+      "statusDetails" : "Method testBranchesPage.deleteBranch()[pri:0, instance:testOwnerDashboard.testBranchesPage@add0edd] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1650491168386,
+        "stop" : 1650491168386,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "2ae6f244fc7f1521",
+      "status" : "skipped",
+      "statusDetails" : "Method testBranchesPage.deleteBranch()[pri:0, instance:testOwnerDashboard.testBranchesPage@add0edd] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1650491035498,
+        "stop" : 1650491035518,
+        "duration" : 20
+      }
+    }, {
+      "uid" : "6eed69bdf810ee73",
+      "status" : "skipped",
+      "statusDetails" : "Method testBranchesPage.deleteBranch()[pri:0, instance:testOwnerDashboard.testBranchesPage@7ea37dbf] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1650490746114,
+        "stop" : 1650490746115,
+        "duration" : 1
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e164c4397a0f574c.json",
+  "parameterValues" : [ ]
+}

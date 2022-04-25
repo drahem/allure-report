@@ -1,0 +1,123 @@
+{
+  "uid" : "95ea9cebeb211dc4",
+  "name" : "testSearchSession",
+  "fullName" : "testGymDashboard.testSessionsPage.testSearchSession",
+  "historyId" : "d3760fa41dfbf9a844cbe977fe68890e",
+  "time" : {
+    "start" : 1650318895803,
+    "stop" : 1650318896898,
+    "duration" : 1095
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ {
+    "name" : "init",
+    "time" : {
+      "start" : 1650318876851,
+      "stop" : 1650318886133,
+      "duration" : 9282
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "stopDriver",
+    "time" : {
+      "start" : 1650318910527,
+      "stop" : 1650318910528,
+      "duration" : 1
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "testGymDashboard.testSessionsPage"
+  }, {
+    "name" : "testClass",
+    "value" : "testGymDashboard.testSessionsPage"
+  }, {
+    "name" : "testMethod",
+    "value" : "testSearchSession"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default Suite"
+  }, {
+    "name" : "suite",
+    "value" : "gymme"
+  }, {
+    "name" : "subSuite",
+    "value" : "testGymDashboard.testSessionsPage"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-SI31G4B"
+  }, {
+    "name" : "thread",
+    "value" : "14296@DESKTOP-SI31G4B.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "e89c338cce0aebed",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650318791088,
+        "stop" : 1650318792058,
+        "duration" : 970
+      }
+    }, {
+      "uid" : "826dc30cc057d4c7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650318543060,
+        "stop" : 1650318544046,
+        "duration" : 986
+      }
+    }, {
+      "uid" : "52ad19d6e2b18617",
+      "status" : "broken",
+      "statusDetails" : "element not interactable\n  (Session info: chrome=100.0.4896.88)\nBuild info: version: '4.1.1', revision: 'e8fcc2cecf'\nSystem info: host: 'DESKTOP-SI31G4B', ip: '192.168.1.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_312'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [02897257cde930359012523a97a547da, sendKeysToElement {id=b7fbbcf0-779c-457d-976e-978d6cdefbcb, value=[Ljava.lang.CharSequence;@6058e535}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.88, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\\Users\\MKSOLU~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:56536}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56536/devtoo..., se:cdpVersion: 100.0.4896.88, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (02897257cde930359012523a97a547da)] -> class: search-box]\nSession ID: 02897257cde930359012523a97a547da",
+      "time" : {
+        "start" : 1650318248013,
+        "stop" : 1650318268762,
+        "duration" : 20749
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "95ea9cebeb211dc4.json",
+  "parameterValues" : [ ]
+}

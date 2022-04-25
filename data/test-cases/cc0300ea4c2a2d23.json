@@ -1,0 +1,96 @@
+{
+  "uid" : "cc0300ea4c2a2d23",
+  "name" : "testLogin",
+  "fullName" : "testOwnerDashboard.testBranchesPage.testLogin",
+  "historyId" : "86fc2ee83c40f0beb0803c189e71314b",
+  "time" : {
+    "start" : 1650491145327,
+    "stop" : 1650491147823,
+    "duration" : 2496
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "init",
+    "time" : {
+      "start" : 1650491137748,
+      "stop" : 1650491145111,
+      "duration" : 7363
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "stopDriver",
+    "time" : {
+      "start" : 1650491168417,
+      "stop" : 1650491168417,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "testOwnerDashboard.testBranchesPage"
+  }, {
+    "name" : "testClass",
+    "value" : "testOwnerDashboard.testBranchesPage"
+  }, {
+    "name" : "testMethod",
+    "value" : "testLogin"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default Suite"
+  }, {
+    "name" : "suite",
+    "value" : "gymme"
+  }, {
+    "name" : "subSuite",
+    "value" : "testOwnerDashboard.testBranchesPage"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-SI31G4B"
+  }, {
+    "name" : "thread",
+    "value" : "2104@DESKTOP-SI31G4B.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cc0300ea4c2a2d23.json",
+  "parameterValues" : [ ]
+}

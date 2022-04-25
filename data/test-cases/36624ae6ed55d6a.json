@@ -1,0 +1,96 @@
+{
+  "uid" : "36624ae6ed55d6a",
+  "name" : "testSearchClassEmpty",
+  "fullName" : "testGymDashboard.testClassesPage.testSearchClassEmpty",
+  "historyId" : "8bd284b4e34962568ba6d9b242102fc5",
+  "time" : {
+    "start" : 1650319787973,
+    "stop" : 1650319788669,
+    "duration" : 696
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "init",
+    "time" : {
+      "start" : 1650319752857,
+      "stop" : 1650319760682,
+      "duration" : 7825
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "stopDriver",
+    "time" : {
+      "start" : 1650319788690,
+      "stop" : 1650319788690,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "testGymDashboard.testClassesPage"
+  }, {
+    "name" : "testClass",
+    "value" : "testGymDashboard.testClassesPage"
+  }, {
+    "name" : "testMethod",
+    "value" : "testSearchClassEmpty"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default Suite"
+  }, {
+    "name" : "suite",
+    "value" : "gymme"
+  }, {
+    "name" : "subSuite",
+    "value" : "testGymDashboard.testClassesPage"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-SI31G4B"
+  }, {
+    "name" : "thread",
+    "value" : "8168@DESKTOP-SI31G4B.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "36624ae6ed55d6a.json",
+  "parameterValues" : [ ]
+}

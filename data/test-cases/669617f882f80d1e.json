@@ -1,0 +1,112 @@
+{
+  "uid" : "669617f882f80d1e",
+  "name" : "testSearchClass",
+  "fullName" : "testGymDashboard.testClassesPage.testSearchClass",
+  "historyId" : "ed95f6be481e12ca2710137151e321d4",
+  "time" : {
+    "start" : 1650391754302,
+    "stop" : 1650391759143,
+    "duration" : 4841
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "init",
+    "time" : {
+      "start" : 1650391733794,
+      "stop" : 1650391744202,
+      "duration" : 10408
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "refresh",
+    "time" : {
+      "start" : 1650391759157,
+      "stop" : 1650391759816,
+      "duration" : 659
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "stopDriver",
+    "time" : {
+      "start" : 1650391771863,
+      "stop" : 1650391771863,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "testGymDashboard.testClassesPage"
+  }, {
+    "name" : "testClass",
+    "value" : "testGymDashboard.testClassesPage"
+  }, {
+    "name" : "testMethod",
+    "value" : "testSearchClass"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default Suite"
+  }, {
+    "name" : "suite",
+    "value" : "gymme"
+  }, {
+    "name" : "subSuite",
+    "value" : "testGymDashboard.testClassesPage"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-SI31G4B"
+  }, {
+    "name" : "thread",
+    "value" : "2104@DESKTOP-SI31G4B.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "669617f882f80d1e.json",
+  "parameterValues" : [ ]
+}

@@ -1,5 +1,284 @@
 {
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
   "name" : "suites",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "Default Suite",
+    "children" : [ {
+      "name" : "gymme",
+      "children" : [ {
+        "name" : "testGymDashboard.testSessionsPage",
+        "children" : [ {
+          "name" : "testAddSession",
+          "uid" : "40bc9cf0b1001439",
+          "parentUid" : "ed836dae1080dd3983401f5e13e2d7dc",
+          "status" : "passed",
+          "time" : {
+            "start" : 1650318886198,
+            "stop" : 1650318895648,
+            "duration" : 9450
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 4,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "testSearchSession",
+          "uid" : "95ea9cebeb211dc4",
+          "parentUid" : "ed836dae1080dd3983401f5e13e2d7dc",
+          "status" : "passed",
+          "time" : {
+            "start" : 1650318895803,
+            "stop" : 1650318896898,
+            "duration" : 1095
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 3,
+          "retriesStatusChange" : true,
+          "parameters" : [ ]
+        }, {
+          "name" : "testDeleteSession",
+          "uid" : "7d90972fc6765698",
+          "parentUid" : "ed836dae1080dd3983401f5e13e2d7dc",
+          "status" : "passed",
+          "time" : {
+            "start" : 1650318896907,
+            "stop" : 1650318909433,
+            "duration" : 12526
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 5,
+          "retriesStatusChange" : true,
+          "parameters" : [ ]
+        }, {
+          "name" : "testSearchSessionEmpty",
+          "uid" : "8b56bcd48e63948b",
+          "parentUid" : "ed836dae1080dd3983401f5e13e2d7dc",
+          "status" : "passed",
+          "time" : {
+            "start" : 1650318909440,
+            "stop" : 1650318910468,
+            "duration" : 1028
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "ed836dae1080dd3983401f5e13e2d7dc"
+      }, {
+        "name" : "testGymDashboard.testMembershipPage",
+        "children" : [ {
+          "name" : "testAddSubscription",
+          "uid" : "d259b7e9b8e59b47",
+          "parentUid" : "1b4739b89c28e484ee95ec4e024d8a20",
+          "status" : "passed",
+          "time" : {
+            "start" : 1650319001082,
+            "stop" : 1650319012880,
+            "duration" : 11798
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 1,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "testSearchSubscription",
+          "uid" : "4585e18331f0fd21",
+          "parentUid" : "1b4739b89c28e484ee95ec4e024d8a20",
+          "status" : "passed",
+          "time" : {
+            "start" : 1650319013014,
+            "stop" : 1650319018364,
+            "duration" : 5350
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 1,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "testDeleteSubscription",
+          "uid" : "8049d2a7cc87fb49",
+          "parentUid" : "1b4739b89c28e484ee95ec4e024d8a20",
+          "status" : "passed",
+          "time" : {
+            "start" : 1650319018398,
+            "stop" : 1650319028423,
+            "duration" : 10025
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 1,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "1b4739b89c28e484ee95ec4e024d8a20"
+      }, {
+        "name" : "testGymDashboard.testClassesPage",
+        "children" : [ {
+          "name" : "refresh",
+          "uid" : "e3fabb6e831f55f5",
+          "parentUid" : "c5b692a2d2a6f0264d6ba55514df3240",
+          "status" : "broken",
+          "time" : {
+            "start" : 1650391660987,
+            "stop" : 1650391660989,
+            "duration" : 2
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "testAddClass",
+          "uid" : "846235cf641ab2fe",
+          "parentUid" : "c5b692a2d2a6f0264d6ba55514df3240",
+          "status" : "passed",
+          "time" : {
+            "start" : 1650392241044,
+            "stop" : 1650392250420,
+            "duration" : 9376
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 15,
+          "retriesStatusChange" : true,
+          "parameters" : [ ]
+        }, {
+          "name" : "testSearchClass",
+          "uid" : "6eba386450b83776",
+          "parentUid" : "c5b692a2d2a6f0264d6ba55514df3240",
+          "status" : "passed",
+          "time" : {
+            "start" : 1650392251394,
+            "stop" : 1650392256020,
+            "duration" : 4626
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 15,
+          "retriesStatusChange" : true,
+          "parameters" : [ ]
+        }, {
+          "name" : "testSearchClassEmpty",
+          "uid" : "918150af83f3be8f",
+          "parentUid" : "c5b692a2d2a6f0264d6ba55514df3240",
+          "status" : "passed",
+          "time" : {
+            "start" : 1650392256676,
+            "stop" : 1650392261968,
+            "duration" : 5292
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 15,
+          "retriesStatusChange" : true,
+          "parameters" : [ ]
+        }, {
+          "name" : "testDeleteClass",
+          "uid" : "128d7b414af39f59",
+          "parentUid" : "c5b692a2d2a6f0264d6ba55514df3240",
+          "status" : "broken",
+          "time" : {
+            "start" : 1650392262572,
+            "stop" : 1650392268561,
+            "duration" : 5989
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 13,
+          "retriesStatusChange" : true,
+          "parameters" : [ ]
+        } ],
+        "uid" : "c5b692a2d2a6f0264d6ba55514df3240"
+      }, {
+        "name" : "testOwnerDashboard.testBranchesPage",
+        "children" : [ {
+          "name" : "testLogin",
+          "uid" : "fdc0c24abce7a441",
+          "parentUid" : "a6d7e0edffe2c39510e992ee51a3e5b2",
+          "status" : "passed",
+          "time" : {
+            "start" : 1650492016235,
+            "stop" : 1650492019178,
+            "duration" : 2943
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 14,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "addNewBranch",
+          "uid" : "cdd11d467ba4efad",
+          "parentUid" : "a6d7e0edffe2c39510e992ee51a3e5b2",
+          "status" : "passed",
+          "time" : {
+            "start" : 1650492019433,
+            "stop" : 1650492030264,
+            "duration" : 10831
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 14,
+          "retriesStatusChange" : true,
+          "parameters" : [ ]
+        }, {
+          "name" : "deleteBranch",
+          "uid" : "e164c4397a0f574c",
+          "parentUid" : "a6d7e0edffe2c39510e992ee51a3e5b2",
+          "status" : "passed",
+          "time" : {
+            "start" : 1650492030278,
+            "stop" : 1650492043906,
+            "duration" : 13628
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 9,
+          "retriesStatusChange" : true,
+          "parameters" : [ ]
+        } ],
+        "uid" : "a6d7e0edffe2c39510e992ee51a3e5b2"
+      } ],
+      "uid" : "9ad7d09909dfcaa288378a1bae57efb3"
+    } ],
+    "uid" : "8399274b4bb69ec8699907dd6ef7de4e"
+  } ]
 }

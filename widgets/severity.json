@@ -1,1 +1,151 @@
-[ ]
+[ {
+  "uid" : "fdc0c24abce7a441",
+  "name" : "testLogin",
+  "time" : {
+    "start" : 1650492016235,
+    "stop" : 1650492019178,
+    "duration" : 2943
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e164c4397a0f574c",
+  "name" : "deleteBranch",
+  "time" : {
+    "start" : 1650492030278,
+    "stop" : 1650492043906,
+    "duration" : 13628
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "846235cf641ab2fe",
+  "name" : "testAddClass",
+  "time" : {
+    "start" : 1650392241044,
+    "stop" : 1650392250420,
+    "duration" : 9376
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e3fabb6e831f55f5",
+  "name" : "refresh",
+  "time" : {
+    "start" : 1650391660987,
+    "stop" : 1650391660989,
+    "duration" : 2
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "8b56bcd48e63948b",
+  "name" : "testSearchSessionEmpty",
+  "time" : {
+    "start" : 1650318909440,
+    "stop" : 1650318910468,
+    "duration" : 1028
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d259b7e9b8e59b47",
+  "name" : "testAddSubscription",
+  "time" : {
+    "start" : 1650319001082,
+    "stop" : 1650319012880,
+    "duration" : 11798
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6eba386450b83776",
+  "name" : "testSearchClass",
+  "time" : {
+    "start" : 1650392251394,
+    "stop" : 1650392256020,
+    "duration" : 4626
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8049d2a7cc87fb49",
+  "name" : "testDeleteSubscription",
+  "time" : {
+    "start" : 1650319018398,
+    "stop" : 1650319028423,
+    "duration" : 10025
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "95ea9cebeb211dc4",
+  "name" : "testSearchSession",
+  "time" : {
+    "start" : 1650318895803,
+    "stop" : 1650318896898,
+    "duration" : 1095
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7d90972fc6765698",
+  "name" : "testDeleteSession",
+  "time" : {
+    "start" : 1650318896907,
+    "stop" : 1650318909433,
+    "duration" : 12526
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "40bc9cf0b1001439",
+  "name" : "testAddSession",
+  "time" : {
+    "start" : 1650318886198,
+    "stop" : 1650318895648,
+    "duration" : 9450
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "918150af83f3be8f",
+  "name" : "testSearchClassEmpty",
+  "time" : {
+    "start" : 1650392256676,
+    "stop" : 1650392261968,
+    "duration" : 5292
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cdd11d467ba4efad",
+  "name" : "addNewBranch",
+  "time" : {
+    "start" : 1650492019433,
+    "stop" : 1650492030264,
+    "duration" : 10831
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4585e18331f0fd21",
+  "name" : "testSearchSubscription",
+  "time" : {
+    "start" : 1650319013014,
+    "stop" : 1650319018364,
+    "duration" : 5350
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "128d7b414af39f59",
+  "name" : "testDeleteClass",
+  "time" : {
+    "start" : 1650392262572,
+    "stop" : 1650392268561,
+    "duration" : 5989
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

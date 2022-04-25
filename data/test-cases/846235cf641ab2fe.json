@@ -1,0 +1,237 @@
+{
+  "uid" : "846235cf641ab2fe",
+  "name" : "testAddClass",
+  "fullName" : "testGymDashboard.testClassesPage.testAddClass",
+  "historyId" : "cc7953490ecf588c3704c851161d9bc6",
+  "time" : {
+    "start" : 1650392241044,
+    "stop" : 1650392250420,
+    "duration" : 9376
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 15,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ {
+    "name" : "init",
+    "time" : {
+      "start" : 1650392233000,
+      "stop" : 1650392240888,
+      "duration" : 7888
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "refresh",
+    "time" : {
+      "start" : 1650392250547,
+      "stop" : 1650392251345,
+      "duration" : 798
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "stopDriver",
+    "time" : {
+      "start" : 1650392269345,
+      "stop" : 1650392269345,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "testGymDashboard.testClassesPage"
+  }, {
+    "name" : "testClass",
+    "value" : "testGymDashboard.testClassesPage"
+  }, {
+    "name" : "testMethod",
+    "value" : "testAddClass"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default Suite"
+  }, {
+    "name" : "suite",
+    "value" : "gymme"
+  }, {
+    "name" : "subSuite",
+    "value" : "testGymDashboard.testClassesPage"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-SI31G4B"
+  }, {
+    "name" : "thread",
+    "value" : "11320@DESKTOP-SI31G4B.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "f674eae97702cc76",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650391992913,
+        "stop" : 1650392002685,
+        "duration" : 9772
+      }
+    }, {
+      "uid" : "e57c9829b03ee780",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650391744421,
+        "stop" : 1650391753606,
+        "duration" : 9185
+      }
+    }, {
+      "uid" : "58651e56776b7378",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#burger\"}\n  (Session info: chrome=100.0.4896.88)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.1.1', revision: 'e8fcc2cecf'\nSystem info: host: 'DESKTOP-SI31G4B', ip: '192.168.1.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_312'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [323588877212eb43380e1875acd0ddab, findElement {using=id, value=burger}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.88, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\\Users\\MKSOLU~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:64316}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64316/devtoo..., se:cdpVersion: 100.0.4896.88, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 323588877212eb43380e1875acd0ddab",
+      "time" : {
+        "start" : 1650391636710,
+        "stop" : 1650391656847,
+        "duration" : 20137
+      }
+    }, {
+      "uid" : "3fe19e79222e2e9a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650391455558,
+        "stop" : 1650391465168,
+        "duration" : 9610
+      }
+    }, {
+      "uid" : "f8a99ab3f9275d44",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650322157253,
+        "stop" : 1650322166154,
+        "duration" : 8901
+      }
+    }, {
+      "uid" : "137d0cf3c43def2f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650321974016,
+        "stop" : 1650321982728,
+        "duration" : 8712
+      }
+    }, {
+      "uid" : "42bd09e7df98393b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650321696885,
+        "stop" : 1650321706217,
+        "duration" : 9332
+      }
+    }, {
+      "uid" : "91425919e727808e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650321579328,
+        "stop" : 1650321589536,
+        "duration" : 10208
+      }
+    }, {
+      "uid" : "587a8575a9428817",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650321254647,
+        "stop" : 1650321264363,
+        "duration" : 9716
+      }
+    }, {
+      "uid" : "3c7432dffed2da59",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650321012201,
+        "stop" : 1650321020838,
+        "duration" : 8637
+      }
+    }, {
+      "uid" : "31aa2d354582a772",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650320540638,
+        "stop" : 1650320549485,
+        "duration" : 8847
+      }
+    }, {
+      "uid" : "3552b3fd4e1d78ec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650320174291,
+        "stop" : 1650320182873,
+        "duration" : 8582
+      }
+    }, {
+      "uid" : "9fcb583a9e0aaa5b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650320111648,
+        "stop" : 1650320120587,
+        "duration" : 8939
+      }
+    }, {
+      "uid" : "77985f9c67b54389",
+      "status" : "failed",
+      "statusDetails" : "expected [1] but found [0]",
+      "time" : {
+        "start" : 1650319983313,
+        "stop" : 1650319992440,
+        "duration" : 9127
+      }
+    }, {
+      "uid" : "9beea453d26c33ad",
+      "status" : "broken",
+      "statusDetails" : "element not interactable\n  (Session info: chrome=100.0.4896.88)\nBuild info: version: '4.1.1', revision: 'e8fcc2cecf'\nSystem info: host: 'DESKTOP-SI31G4B', ip: '192.168.1.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_312'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [0f293404143d8c0bc34e70b9bb6510ed, clickElement {id=17babca2-22c2-4433-ae1f-00426ae187db}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.88, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\\Users\\MKSOLU~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:57670}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57670/devtoo..., se:cdpVersion: 100.0.4896.88, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (0f293404143d8c0bc34e70b9bb6510ed)] -> xpath: //*[@id=\"app-root-div\"]/div[2]/div[3]/div[3]/div[1]/div/button]\nSession ID: 0f293404143d8c0bc34e70b9bb6510ed",
+      "time" : {
+        "start" : 1650319760816,
+        "stop" : 1650319787096,
+        "duration" : 26280
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "846235cf641ab2fe.json",
+  "parameterValues" : [ ]
+}

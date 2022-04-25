@@ -1,0 +1,244 @@
+{
+  "uid" : "6eba386450b83776",
+  "name" : "testSearchClass",
+  "fullName" : "testGymDashboard.testClassesPage.testSearchClass",
+  "historyId" : "ed95f6be481e12ca2710137151e321d4",
+  "time" : {
+    "start" : 1650392251394,
+    "stop" : 1650392256020,
+    "duration" : 4626
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 15,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ {
+    "name" : "init",
+    "time" : {
+      "start" : 1650392233000,
+      "stop" : 1650392240888,
+      "duration" : 7888
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "refresh",
+    "time" : {
+      "start" : 1650392256026,
+      "stop" : 1650392256643,
+      "duration" : 617
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "stopDriver",
+    "time" : {
+      "start" : 1650392269345,
+      "stop" : 1650392269345,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "testGymDashboard.testClassesPage"
+  }, {
+    "name" : "testClass",
+    "value" : "testGymDashboard.testClassesPage"
+  }, {
+    "name" : "testMethod",
+    "value" : "testSearchClass"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default Suite"
+  }, {
+    "name" : "suite",
+    "value" : "gymme"
+  }, {
+    "name" : "subSuite",
+    "value" : "testGymDashboard.testClassesPage"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-SI31G4B"
+  }, {
+    "name" : "thread",
+    "value" : "11320@DESKTOP-SI31G4B.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "5f8d97cc2c8b7b43",
+      "status" : "failed",
+      "statusDetails" : "expected [1] but found [4]",
+      "time" : {
+        "start" : 1650392003641,
+        "stop" : 1650392008608,
+        "duration" : 4967
+      }
+    }, {
+      "uid" : "669617f882f80d1e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650391754302,
+        "stop" : 1650391759143,
+        "duration" : 4841
+      }
+    }, {
+      "uid" : "4e9a9f2eed474254",
+      "status" : "broken",
+      "statusDetails" : "Unable to find element with locator By.id: burger\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.1.1', revision: 'e8fcc2cecf'\nSystem info: host: 'DESKTOP-SI31G4B', ip: '192.168.1.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_312'\nDriver info: driver.version: RemoteWebDriver",
+      "time" : {
+        "start" : 1650391657614,
+        "stop" : 1650391660898,
+        "duration" : 3284
+      }
+    }, {
+      "uid" : "78e5e64ca3524289",
+      "status" : "failed",
+      "statusDetails" : "expected [1] but found [6]",
+      "time" : {
+        "start" : 1650391465316,
+        "stop" : 1650391467514,
+        "duration" : 2198
+      }
+    }, {
+      "uid" : "9fdf41bd557526c6",
+      "status" : "failed",
+      "statusDetails" : "expected [1] but found [2]",
+      "time" : {
+        "start" : 1650322166234,
+        "stop" : 1650322168043,
+        "duration" : 1809
+      }
+    }, {
+      "uid" : "867850142b928df0",
+      "status" : "failed",
+      "statusDetails" : "expected [1] but found [2]",
+      "time" : {
+        "start" : 1650321982830,
+        "stop" : 1650321984705,
+        "duration" : 1875
+      }
+    }, {
+      "uid" : "18eed384edbc9688",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650321706298,
+        "stop" : 1650321708133,
+        "duration" : 1835
+      }
+    }, {
+      "uid" : "ee4d40e28e4c3cd6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650321589648,
+        "stop" : 1650321591479,
+        "duration" : 1831
+      }
+    }, {
+      "uid" : "250944e72f2cbc6a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650321264450,
+        "stop" : 1650321266242,
+        "duration" : 1792
+      }
+    }, {
+      "uid" : "c93768467181b637",
+      "status" : "failed",
+      "statusDetails" : "expected [1] but found [2]",
+      "time" : {
+        "start" : 1650321020925,
+        "stop" : 1650321022847,
+        "duration" : 1922
+      }
+    }, {
+      "uid" : "52f09534db26dcc6",
+      "status" : "failed",
+      "statusDetails" : "expected [1] but found [3]",
+      "time" : {
+        "start" : 1650320549592,
+        "stop" : 1650320550405,
+        "duration" : 813
+      }
+    }, {
+      "uid" : "f69661721a15d6bc",
+      "status" : "failed",
+      "statusDetails" : "expected [1] but found [2]",
+      "time" : {
+        "start" : 1650320182960,
+        "stop" : 1650320183755,
+        "duration" : 795
+      }
+    }, {
+      "uid" : "a503588cbbca892b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650320120669,
+        "stop" : 1650320121428,
+        "duration" : 759
+      }
+    }, {
+      "uid" : "554ea1ec744eceb6",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <button id=\"burger\" class=\"burger\">...</button> is not clickable at point (40, 30). Other element would receive the click: <div id=\"add-form\" class=\"form-container\">...</div>\n  (Session info: chrome=100.0.4896.88)\nBuild info: version: '4.1.1', revision: 'e8fcc2cecf'\nSystem info: host: 'DESKTOP-SI31G4B', ip: '192.168.1.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_312'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [0ec8763f84843f01a564512dcf212938, clickElement {id=66d7b8e9-2faa-4d66-a1ce-98eb9a9f2964}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.88, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\\Users\\MKSOLU~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:57929}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57929/devtoo..., se:cdpVersion: 100.0.4896.88, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (0ec8763f84843f01a564512dcf212938)] -> id: burger]\nSession ID: 0ec8763f84843f01a564512dcf212938",
+      "time" : {
+        "start" : 1650319992547,
+        "stop" : 1650319993664,
+        "duration" : 1117
+      }
+    }, {
+      "uid" : "22d45b84f92e8217",
+      "status" : "failed",
+      "statusDetails" : "expected [1] but found [0]",
+      "time" : {
+        "start" : 1650319787169,
+        "stop" : 1650319787967,
+        "duration" : 798
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6eba386450b83776.json",
+  "parameterValues" : [ ]
+}
