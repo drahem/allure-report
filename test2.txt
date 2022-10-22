@@ -1,1 +1,7 @@
 test
+cd D:\test1
+cp test2.txt allure-report
+cd allure-report
+git add .
+git commit -m "test"
+git push
